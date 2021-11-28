@@ -1,0 +1,175 @@
+
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#btn-mas{
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.menus a, .icon-mas2{
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px 
+    rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+
+}
+
+.menus a:hover{
+    background: #fff;
+    color: #cc2b2b;
+
+}
+.menus a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked ~  .menus a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon-mas2{
+    cursor: pointer;
+    background: #f44141;
+    font-size: 23px;
+
+}
+#btn-mas:checked ~ .btnmas .icon-mas2{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+.imagenfondo{
+    background-image: url(img/Vino24.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.body{
+    font-family:"oswald", sans-serif;
+  font-weight: 200;
+ background-repeat: no-repeat;
+  color: var(--color-light);
+  letter-spacing: .05rem;
+  
+}
+
+
+h1{
+     background-color: rgb(113, 59, 111);
+    text-align:center;
+    
+    
+}
+
+
+
+.galeria{
+    background-color: #b3b3db;
+    width: 70%;
+    margin:auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing:border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    border-style:solid;
+    flex-wrap: wrap;
+    
+}
+
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 100px;
+    height: 100px;
+}
+
+/*estilos del modal*/
+.modal{
+    display: none;
+}
+.modal:target{
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divgaleria{
+  margin-top: 5%;
+
+}
+
+.imagen a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+.imagen a:nth-child(2){
+margin:0;
+height: 100%;
+flex-shrink: 2;
+}
+.cerrar {
+display: block;
+background: #fff;
+width: 50px;
+height: 50px;
+margin: 15px auto;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+color: #000;
+padding: 1px;
+border-radius: 50%;
+line-height: 50px;
+}

@@ -1,0 +1,90 @@
+.ubi{
+    margin-left: 29%;
+}
+.texto{
+    text-align: center;
+    padding: auto;
+    margin-top: auto;
+    background-color:rgba(92, 105, 143, 0.76);
+    justify-content: space-around;
+}
+.h1{
+    text-align: center;
+    color: rgb(5, 2, 2);
+    
+}
+.body{
+   
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+   font-family: "Raleway";
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#btn-mas{
+    display: none;
+}
+.container{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.menus a, .icon-mas2{
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px 
+    rgba(0,0,0,0.4);
+    transition: all 500ms ease;
+
+}
+
+.menus a:hover{
+    background: #fff;
+    color: #522994;
+
+}
+.menus a{
+    margin-bottom: -15px;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-mas:checked ~  .menus a{
+    margin-bottom: 10px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.icon-mas2{
+    cursor: pointer;
+    background: #522994;
+    font-size: 23px;
+
+}
+#btn-mas:checked ~ .btnmas .icon-mas2{
+    transform: rotate(137deg);
+    font-size: 25px;
+}
+
+video{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+   
+    z-index: -1;
+    }

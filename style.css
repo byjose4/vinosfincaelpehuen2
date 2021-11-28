@@ -1,0 +1,188 @@
+:root{
+  --color-dark: #1b1b1b;
+  --color-light: #ffffff;
+  --color-gold: #c7b8a5;
+
+}
+
+body{
+  font-family:"oswald", sans-serif;
+  font-weight: 200;
+  background-image: url(img/espana-vino-espana-_pueblos-_cultura_y_folclore_526208723_161872141_1706x960.jpg);
+    background-repeat: no-repeat;
+  color: var(--color-light);
+  letter-spacing: .05rem;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;    
+  background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+     
+}
+
+.juanimagen{
+    width:250%;
+    margin-left: 70%;
+   
+}
+
+.col-lg-3{
+text-align: center;
+margin-left: 10%;    
+margin-bottom: 49%;  
+margin-top: 20%;   
+    position: absolute;
+    height: 200px;
+    
+}
+.lead {
+font-size: 1.75rem;
+}
+.nav-link {
+  margin-left: 5rem;
+}
+.sideways{
+  writing-mode: vertical-lr;
+  display: block ;
+  margin: 5.5rem 0;
+  transform: rotate(-0deg);
+}
+.btn-primary{
+  background-color: transparent;
+  
+
+  padding: .7rem 2.5rem;
+  font-size: 1.25rem;
+}
+.btn-primary:hover {
+  background-color:ghostwhite;
+  color: var(--color-dark);
+  border: 1px solid var(--color-light);
+}
+.navbar {
+  min-height: 5rem;
+      
+
+}
+.bg-light{
+  background-color: 1px solid rgba(256, 256, 256, .1) !important;
+}
+@media (max-widht: 991.98px ){
+  .content {
+    padding: 5rem 0;
+  }
+} 
+
+
+@media (max-widht: 1199.98px) {
+  .sideways{
+    margin: 2rem 0; 
+  }
+  .lead-xl{
+    font-size: 1.25rem;
+      text-align: center;
+  }
+
+}
+h1{
+    color: #fff;
+    text-align:center;
+    
+}
+
+
+
+.galeria{
+    width: 70%;
+    margin: auto;
+    list-style: none;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 100px;
+    height: 100px;
+}
+
+/*estilos del modal*/
+.modal{
+    display: none;
+}
+.modal:target{
+    position: fixed;
+    background: rgba(0,0,0,0.8);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.modal h3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.imagen {
+    width: 100%;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divgaleria{
+  margin-top: 20%;
+
+}
+
+.imagen a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.imagen img {
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid #fff;
+    box-sizing: border-box;
+}
+.imagen a:nth-child(2){
+margin:0;
+height: 100%;
+flex-shrink: 2;
+}
+.cerrar {
+display: block;
+background: #fff;
+width: 50px;
+height: 50px;
+margin:15px auto;
+text-align: center;
+text-decoration: none;
+font-size: 25px;
+color: #000;
+padding: 5px;
+border-radius: 50%;
+line-height: 25px;
+}
+
+.colg-lg-7{
+  margin: top;
+  text-align: 5%;
+}
+

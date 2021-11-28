@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2021 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="casa" unicode="&#xe800;" d="M1108 422q38-30 38-80 0-42-30-73t-75-31l-51 0 0-312q0-44-31-75t-74-30l-625 0q-42 0-73 30t-31 75l0 312-52 0q-44 0-74 31t-30 73q0 46 36 79 79 66 204 174t211 181 88 75l34 29 35-29q1-1 86-75t211-181 203-173z m-430-496l0 260-209 0 0-260 209 0z m207 416l156 0q-231 194-468 400-238-206-469-400l156 0 0-416 156 0 0 312 313 0 0-312 156 0 0 416z" horiz-adv-x="1146" />
+
+<glyph glyph-name="vino" unicode="&#xe801;" d="M580 484q0-106-68-187t-171-98q0-1 1-2t1-3l0-209 51 0q21 0 37-15t15-36-15-37-37-16l-208 0q-21 0-37 16t-15 37 15 36 37 15l52 0 0 209q0 1 0 3t1 2q-103 18-171 98t-68 187q0 59 13 133t22 115 14 50q5 16 19 26t31 11l382 0q18 0 32-11t18-26q4-9 14-50t23-115 12-133z m-290-186q69 0 121 44t62 112l-365 0q10-67 61-112t121-44z m-185 209l370 0q-5 98-34 208l-302 0q-29-110-34-208z" horiz-adv-x="580" />
+
+<glyph glyph-name="picture" unicode="&#xe802;" d="M856 518l-100 0-124 150-214-150-180 0q-52 0-90-39t-38-91l0-160-108 296q-10 38 22 52l680 248q36 10 50-24z m106-90q16 0 27-12t11-28l0-472q0-16-11-28t-27-12l-724 0q-16 0-27 12t-11 28l0 472q0 16 11 28t27 12l724 0z m-56-452l0 162-72 160-166-60-130-132-138 170-92-214 0-86 598 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="ubicacion" unicode="&#xe803;" d="M0 473q0 156 110 267t267 110 267-110 110-267q0-123-53-193l-324-430-324 430q-53 70-53 193z m219 0q0-66 46-112t112-46 112 46 46 112-46 112-112 46-112-46-46-112z" horiz-adv-x="754" />
+</font>
+</defs>
+</svg>
